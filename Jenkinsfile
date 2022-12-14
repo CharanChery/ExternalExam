@@ -11,7 +11,7 @@ pipeline{
         echo 'Compiling your code'
       }
     }
-     stage('Installation')
+    stage('Installation'){
       steps{
         echo 'Installing your code'
       }
